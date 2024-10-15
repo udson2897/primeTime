@@ -59,12 +59,13 @@
     .cols-4{
         grid-template-columns: repeat(2,1fr);
         gap: 20px;
-        margin-right: 300px;
+        
     }
 
     .cols-8 {
     grid-template-columns: repeat(2, 1fr);
     gap: 3rem;
+    margin-right: 50px;    
  
 }
     
