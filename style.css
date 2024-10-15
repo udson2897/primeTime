@@ -1,0 +1,303 @@
+*{ /*O asterisco aplica os atributo em todo o código */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* inicio header */
+
+.navbar{
+background-color:orangered;
+padding: 1rem;
+position: sticky; /*faz com que a div fique fixa.*/
+top: 0;
+z-index: 100;
+box-shadow: 10px 0px 10px black;
+
+
+
+}
+
+.header-inner-content{
+max-width: 100%;
+margin-left: auto;
+margin-right: auto;
+
+
+}
+
+.logo{
+color: white;
+
+
+}
+
+.logo span{
+color: black;
+
+}/* Fim header */
+
+
+/*Início Menu navegação*/
+.navbar>div{
+    display: flex;
+    justify-content: space-between; /* faz com que tudo em volta do item tenha o mesmo espaçamento*/
+    align-items: center;
+    position: relative;
+}
+
+
+nav ul{
+display: flex;
+list-style-type: none;
+align-items: center;
+font-size: 22px;
+
+}
+
+nav ul li:hover{
+transform: translateY(-5px); /*que os elementos sejam movidos para cima , se fosse "transform: translateX" o movimente seria para baixo*/
+transition: all 0.5s ease-in-out;
+color: black;
+font-weight: bold;
+
+
+}
+
+nav ul li{
+color: white;
+margin-right: 1.5rem;
+cursor: pointer;
+
+}
+
+
+.nav-icon-container{
+display: flex;
+align-items: center;
+
+
+}
+
+.nav-icon-container img{
+width: 30px;
+cursor: pointer;
+
+}
+
+/*escolhe uma imagem específica para aplicar a margin-rigth: first-child - aplica na primeira imagem. last-child - aplica na última imagem*/
+.header-inner-content img:first-child{
+    margin-right: 1rem;
+}
+
+.menu-button{
+    display: none;
+
+} /*Fim Menu navegação*/
+
+
+
+
+
+.header-bottom-side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-image: radial-gradient(#fff, #383939)
+}
+
+.header-bottom-side-left{
+    height: 100%;
+    flex-basis: 50%; /*Serve para dividir a "div" em partes iguais*/
+}
+
+.header-bottom-side-left h1{
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 1rem;
+
+}
+
+.header-bottom-side-left p{
+    margin-bottom: 1rem;
+    font-size: 20px;
+    line-height: 1,5;
+    color:black;
+}
+
+.header-bottom-side-left button{
+    background-color: orangered;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 99px;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+.header-bottom-side-left button:hover{
+    background-color: black;
+    transform: scale(1.2);
+    transition: all 1.0s;
+}
+
+span{
+    color:white
+}
+
+.header-bottom-side-right{  
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+
+}
+
+.ofertas{
+filter: drop-shadow(12px  10px); /*Cria uma sobra em um objeto seja um texto ou imagem */
+
+}
+
+.ofertas img{
+    width: 300px;
+
+}
+
+.header-bottom-side-right img{
+    width: 300px;
+    filter: drop-shadow( 50px 30px); 
+
+}
+.page-inner-content{
+width: 100%;
+
+
+
+
+}
+
+.cols{
+
+    display: grid;
+    justify-content: space-between;
+    padding: 4rem 1rem;
+}
+
+.cols-3{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    margin-left: 200px;
+    
+}
+
+.lancamentos{
+background-image: radial-gradient(#aaa7a7, #282929);
+color: white;
+
+}
+
+
+
+.section-title{
+padding-top: 10px;
+text-align: center;
+margin-top: 2rem;
+
+
+
+}
+
+.subtitle-underline{
+    width: 320px;
+    height: 5px;
+    background-color: orangered;
+    margin: 8px auto 0 auto;
+    border-radius: 9999px;
+
+}
+
+.product{
+margin-bottom: 16px;
+margin-top: 10px;
+
+
+}
+.product img{
+    width: 300px;
+}
+
+
+
+
+.product-name{
+    font-weight: 600;
+    margin-top: 10px;
+   
+    
+    
+
+}
+
+.rate{
+    color: orangered;
+    font-size: 20px;
+}
+
+.product-price{
+font-size: 20px;
+font-weight: 500;
+
+}
+
+.cols-4{
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    margin-left: 100px;
+   
+    
+}
+
+.cols>*{ /* Tudo que estiver dentro da class será aplicado os atributos abaixo,  */
+    cursor: pointer;
+    transition: all 0.5s;
+    
+
+}
+
+.cols>*:hover{
+    transform: scale(1.05);
+}
+
+
+
+#rodape{
+    margin-top: 150px;
+    background-color: #282929;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.cols-8{
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    
+   
+    
+}
+
+.produtos img{
+    width: 250px;
+    margin-left: 50px;
+}
