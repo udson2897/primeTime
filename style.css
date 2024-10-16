@@ -111,6 +111,8 @@ cursor: pointer;
     background-image: radial-gradient(#fff, #383939)
 }
 
+
+
 .header-bottom-side-left{
     height: 100%;
     flex-basis: 50%; /*Serve para dividir a "div" em partes iguais*/
@@ -301,4 +303,56 @@ a{
 .produtos img{
     width: 250px;
     margin-left: 50px;
+}
+
+ #reverse .header-bottom-side{
+    flex-direction: row-reverse;
+}
+#reverse .header-bottom-side-left{
+    height: 100%;
+    flex-basis: 50%; /*Serve para dividir a "div" em partes iguais*/
+    padding-right: 150px;
+}
+
+#reverse .header-bottom-side-left h1{
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 1rem;
+
+}
+
+#reverse .header-bottom-side-left p{
+    margin-bottom: 1rem;
+    font-size: 20px;
+    line-height: 1,5;
+    color:black;
+}
+
+#reverse .header-bottom-side-left button{
+    background-color: orangered;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 99px;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+.header-bottom-side-left button:hover{
+    background-color: black;
+    transform: scale(1.2);
+    transition: all 1.0s;
+}
+
+#reverse .header-bottom-side-right{  
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    
+}
+#span{
+    text-shadow: 10px 10px 10px black;
 }
