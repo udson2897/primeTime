@@ -1,6 +1,6 @@
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .logo{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .menu-button{
@@ -15,33 +15,34 @@
         width: 100%;
         top: 65px;
         position: absolute;
-       
-       
-        
+ 
     }
 
     .show-menu nav{
         display: block;
-        margin-left: 230px;
-        
+        background-color: orangered;
+        margin-left: 60%;
+        width: 40%;
     }
       
     nav ul {
         flex-direction: column;
-        
-        
+        text-align: right;        
     }
     
     nav ul li{
         width: 100%;
         padding: 1rem;
-        color: orangered;
-        text-align: right;
-        margin-left: 65px;
-        
+        color: white;
+
           
     }
+    .ofertas img{
+        width: 100%;
+
     
+    }
+
     .header-bottom-side{
         flex-direction: column;
         
@@ -54,21 +55,34 @@
     .cols-3{
         grid-template-columns: repeat(1,1fr); /*divide as imagens por colunas: "1 , 1fr= quantas imagens serão colocadas na coluna, neste caso 1 imagem.*/
         gap: 20px;
+        margin-left: 0px;
     }
 
     .cols-4{
         grid-template-columns: repeat(2,1fr);
         gap: 20px;
+        margin-left: 0px;
+        overflow: hidden;
+        
+
+    }
+    .cols-8 {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+        margin-left: -140px;
+        
         
     }
-
-    .cols-8 {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 3rem;
-       
- 
-}
+    .product img{
+        width: 150px;
+    }    
     
+    .product-name, .rate, .product-price{
+        text-align: center;
+    }
+    
+
+
 }
 
 
