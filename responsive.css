@@ -80,6 +80,27 @@
     .product-name, .rate, .product-price{
         text-align: center;
     }
+
+     section.header-bottom-side{
+        flex-direction: column-reverse;
+        
+        
+    }
+
+    .comentarios{
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .comment{
+        flex-basis: 100%;
+        margin-bottom: 2rem;
+    }
+
+   section .header-bottom-side-right img {
+    filter: drop-shadow(0px 0px 0px);
+    width: 200px;
+    margin-left: 90px;
     
 
 
