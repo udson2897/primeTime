@@ -394,6 +394,11 @@ a{
 
 }
 
+.comment p:last-child{
+    font-weight: bold;
+    font-size: 20px;
+}
+
 .rodape{
     
     background-color: orangered;
