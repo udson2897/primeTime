@@ -393,3 +393,85 @@ a{
 
 
 }
+
+.rodape{
+    
+    background-color: orangered;
+
+}
+
+.store-links img{
+    width: 200px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    
+    
+}
+
+.store-links img:hover{
+    transform: scale(1.08);
+
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 1rem;
+    color: white;
+    gap: 32rem;
+    
+}
+
+.logo-footer{
+    text-align: center;
+    
+}
+
+.logo-footer p{
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+    
+}
+
+.copyrigth{
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.download-options p:first-child{
+    font-weight: bold;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.links-footer ul{
+    list-style-type: none;
+    
+    
+    
+}
+
+.links-footer ul li{
+    margin-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    
+    
+
+
+}
+
+.links-footer h2{
+    color: black;
+}
+
+.links-footer a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
